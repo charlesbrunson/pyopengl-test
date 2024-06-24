@@ -44,7 +44,6 @@ def render(drawable, shader, uniforms):
   shader.unbind()
 
 def main():
-  global model_mat
   pygame.init()
   width, height = (800, 600)
   pygame.display.set_mode((width, height), DOUBLEBUF|OPENGL)
